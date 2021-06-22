@@ -8,6 +8,8 @@
     <title>bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <!-- link para jumbotron    -->
+     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -52,14 +54,86 @@
     </nav>
 <!-- /menu  -->
 
-<!-- Grid  -->
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-12">
-                <div class="bg-danger">12 colunas</div>
+<!-- carrosel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/WandaVision141k.jpg" class="d-block w-100" alt="Logo da série...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/wandavision-poster-hq-top-1280.jpg" class="d-block w-100" alt="Poster série">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/wandasolo1280.jpg" class="d-block w-100" alt="Poster série">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- /carroseul -->
+
+  <!-- jumbotron -->
+  
+  <!-- /jumbotron -->
+
+  <!-- cards -->
+  <div class="container pt-5">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Página oficial da banda</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's
+                        content. textexttext</p>
+                    <a href="https://www.evanescence.com/home/" class="btn btn-primary">Site Oficial</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Encontre a banda no spotify</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's
+                        content.</p>
+                    <a href="https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c?si=RDYY16w9TQygTYmOiQp4UQ&dl_branch=1"
+                        class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Siga a banda nas redes sociais</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+  <!-- /cards -->
+
+<!-- Grid  -->
+    
 <!-- /Grid -->
 
 
@@ -72,6 +146,8 @@
 
 
 
+<!-- link para scrip jumbotron -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> -->
 
 <!-- Scripts necessários para utilização dos códigos JS do Bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
