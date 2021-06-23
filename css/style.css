@@ -4,3 +4,12 @@
     background-color: var(--bs-light);
     border-radius: .3rem;  
   }
+
+#fonteh1{
+    font-size: 60px;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+}

@@ -8,133 +8,169 @@
     <title>bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-     <!-- link para jumbotron    -->
-     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
+    <!-- link para jumbotron    -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Olá Mundo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#" style="font-family: 'Dancing Script', cursive ;" >Feiticeira Escarlate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#origem">Origem</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Redes Sociais
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://www.instagram.com/nat_sabino">Instagram</a></li>
-                            <li><a class="dropdown-item" href="https://github.com/sabinonatalia">GitHub</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/nat%C3%A1lia-sabino/">Linkedln</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#curiosidade">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#wanda">WandaVision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fotos</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
-<!-- /menu  -->
+    <!-- /menu  -->
 
-<!-- carrosel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/img/WandaVision141k.jpg" class="d-block w-100" alt="Logo da série...">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/img/wandavision-poster-hq-top-1280.jpg" class="d-block w-100" alt="Poster série">
-      </div>
-      <div class="carousel-item">
-        <img src="./assets/img/wandasolo1280.jpg" class="d-block w-100" alt="Poster série">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- /carroseul -->
+    <!-- carrosel -->
 
-  <!-- jumbotron -->
-  
-  <!-- /jumbotron -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/car1c.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+    <!-- /carroseul -->
 
-  <!-- cards -->
-  <div class="container pt-5">
-    <div class="row">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Página oficial da banda</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's
-                        content. textexttext</p>
-                    <a href="https://www.evanescence.com/home/" class="btn btn-primary">Site Oficial</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Encontre a banda no spotify</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's
-                        content.</p>
-                    <a href="https://open.spotify.com/artist/5nGIFgo0shDenQYSE0Sn7c?si=RDYY16w9TQygTYmOiQp4UQ&dl_branch=1"
-                        class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Siga a banda nas redes sociais</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
+    <!-- jumbotron- utilizando a classe container fluid pois não o jumbotron não tem na versão atual do boostrap -->
+    <div id="feiticeira" class="container-fluid text-sm-center p-5 bg-light" style="font-family: 'Dancing Script', cursive; font-size: 80px;">
+        Feiticeira Escarlate
+        <h1 class="display-2" style="text-align: center;"></h1>
+        <p style="font-size: 40px;" class="lead">A poderosa e mística Wanda Maximoff</p>
     </div>
+    <!-- /jumbotron -->
+
+    <!-- cards -->
+    <!-- <div class="container d-flex justify-content-around pt-5"> -->
+        
+
+    <!-- /cards -->
+
+<!--Texto e Video-->
+    <div class="container text-center" >
+    <div class="row mt-5 mp-5 mr-5">
+      <div class="col">
+        <h1 id="origem" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Origem</h1>
+        <p class="text-justify d-flex">
+        
+            Wanda Maximoff foi criada por Stan Lee e Jack Kirby e sua primeira aparição foi em 1964 na HQ X-Men #4. Ela começou na história como vilã mas, com o passar dos anos, diversas facetas da personagem começaram a aparecer, incluindo seu momento como heróina e parte dos Vingadores
+        </p>
+        <p class="text-justify d-flex">
+            No entanto, a origem da personagem nos filmes é bem diferente dos quadrinhos. Inclusive, ele teve mais de uma origem nas publicações, mas vamos focar na clássica, em que ela é filha do mutante Magneto. Inicialmente, Wanda e Pietro (seu irmão gêmero) acreditavam que tinham sido adotados ainda crianças pelo vilão, mas foi revelado que o mutante era o pai biológico dos dois. Magda era amante de Magneto e, após descobrir a gravidez, fugiu para ter os gêmeos em segredo. Depois do nascimento, Wanda e seu irmão foram entregues a um casal de ciganos, para sua própria proteção. Anos mais tarde, o pai dos gêmeos os encontrou e passou a cuidar deles por perceber o grande potencial de seus poderes. 
+        </p>
+        <p class="text-justify d-flex">
+            Já no cinema, os irmãos são pessoas normais que ganham seus poderes através de uma das Joias do Infinito. Eles também começam como vilões e buscam vingança contra Tony Stark, que vendeu uma das armas que matou seus pais. Pietro morre durante a batalha final de Vingadores: A Era de Ultron (2015), em um sacrifício para salvar o Gavião Arqueiro e uma criança e, depois disso, Wanda se torna uma Vingadora. (Texto retirado do site Omelete)
+        </p>
+      </div>
+      <div class="col-md-6 d-flex">
+       
+        <iframe width="650" height="450" src="https://www.youtube.com/embed/ScDQ5qFntDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    </div>
+<!--/Texto e Video-->
+
+<!-- divisão -->
+<div id="curiosidade" class="container-fluid text-sm-center p-5 bg-light" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 3em;">
+    Curiosidades
 </div>
 
-  <!-- /cards -->
+<!-- /divisão -->
 
-<!-- Grid  -->
+
+<!-- Cards  -->
+<div class="row row-cols-1 row-cols-md-2 g-4 ">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/240.1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ela pode voltar no tempo</h5>
+          <p class="card-text">A Feiticeira Escarlate também pode voltar no tempo, o que não é tão incomum assim no universo da Marvel. Por isso, é de se perguntar por que os Vingadores não pediram a ajuda dela para deter Thanos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/240.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ela pode controlar o tempo</h5>
+          <p class="card-text">Em um dos episódios recentes disponibilizados no Disney+, Wanda pode controlar o tempo. Quando sua bolsa de água estoura, ela rapidamente cria uma tempestade apenas em volta da casa do Visão. Essa foi a primeira vez em que esse poder foi revelado no universo da Marvel.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/240.3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Talvez ela possa desintegrar objetos</h5>
+          <p class="card-text">A gama de poderes da Feiticeira Escarlate é muita vasta e, sem dúvidas, ainda desconhecida em sua totalidade. Portanto, podemos assumir que um desses poderes ainda não revelados na série da Marvel é a habilidade de desintegrar objetos. Afinal, quando ela percebe a morte de seu irmão, Wanda consegue desintegrar as entranhas de Ultron. Logo, isso poderia ser aplicado também aos objetos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/img/240.4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ela pode reverter os poderes da Joia da Mente</h5>
+          <p class="card-text">A Joia pode controlar a mente de qualquer um que entre em contato com ela. Logo, os poderes de Wanda Maximoff estão diretamente relacionados à pedra; por isso, ela é a única capaz de reverter os seus efeitos, o que foi provado quando ela conseguiu libertar Hellen Cho de seu controle.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- /Cards -->
+
+<!-- divisão -->
+<div id="wanda" class="container-fluid text-sm-center p-5 bg-light " style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 3em;">
+    WandaVision
     
-<!-- /Grid -->
+</div>
+
+<!-- /divisão -->
+
+<!-- carrosel -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/car2.jpg" class="d-block w-100" alt="...">
+      </div>
+  </div>
+<!-- /carroseul -->
+
+
+
+
+
+
+  <!--Formulário de contato-->
+
+    <!-- formulario    -->
 
 
 
@@ -142,15 +178,46 @@
 
 
 
+ 
+    <!--Rodapé-->
+    <hr style="width: 100%;">
+    <footer>
+
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+          
+            <a href="https://www.github.com/sabinonatalia" target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/github.png" alt="Logo do Facebook">
+            </a>
+      
+            <a href="https://www.linkedin.com/in/nat%C3%A1lia-sabino/" target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/linkedin.png"  alt="Logo do Linkedin">
+            </a>
+      
+            <a href="https://www.instagram.com/nat_sabino" target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Intagram">
+            </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            Todos os direitos reservados: Natália Sabino &copy
+          </p>
+        </div>
+      </div>
+
+      
+      
+    </footer>
+    <!--/Rodapé-->
+
+  </div>
 
 
-
-
-<!-- link para scrip jumbotron -->
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> -->
-
-<!-- Scripts necessários para utilização dos códigos JS do Bootstrap  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    <!-- Scripts necessários para utilização dos códigos JS do Bootstrap  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
 </body>
